@@ -26,6 +26,7 @@ test -f Makefile && make clean
     --with-bz2 \
     --enable-bcmath \
     --enable-filter \
+    --with-ffi \
     --enable-session \
     --enable-tokenizer \
     --enable-mbstring \
@@ -48,14 +49,31 @@ test -f Makefile && make clean
     --enable-exif \
     --with-sodium \
     --enable-xml --enable-simplexml --enable-xmlreader --enable-xmlwriter --enable-dom --with-libxml \
-    --enable-gd --with-jpeg  --with-freetype \
+    --enable-gd --with-jpeg --with-webp --with-freetype --with-xpm \
     --enable-swoole --enable-sockets --enable-mysqlnd --enable-swoole-curl --enable-cares \
     --enable-swoole-pgsql \
     --enable-swoole-sqlite \
     --enable-redis \
     --with-imagick \
     --with-yaml \
-    --with-readline
-
-
+    --with-readline \
+    --enable-zts \
+    --with-tidy \
+    --enable-sysvsem \
+    --enable-sysvshm \
+    --enable-shmop \
+    --with-gettext \
+    --enable-calendar \
+    --enable-ftp \
+    --with-enchant=/usr \
+    --enable-sysvmsg \
+    --with-ffi \
+    --with-password-argon2 \
+    --with-mhash \
+    --enable-dba \
+    --with-cdb \
+    --enable-flatfile \
+    --enable-inifile \
+    --with-tcadb \
+    --with-lmdb \
 #    --with-pdo-sqlite \
