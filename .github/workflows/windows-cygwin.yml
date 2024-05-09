@@ -57,7 +57,7 @@ jobs:
       - name: Configure
         run: |
           uname -a
-          # git config --global --add safe.directory /cygdrive/d/a/swoole-cli/swoole-cli
+          git config --global --add safe.directory /cygdrive/d/a/swoole-cli/swoole-cli
           # git submodule update --init
           bash ./sapi/scripts/cygwin/cygwin-config-ext.sh
           bash ./sapi/scripts/cygwin/cygwin-config.sh
