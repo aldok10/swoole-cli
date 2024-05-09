@@ -22,6 +22,7 @@ test -f Makefile && make clean
     --with-openssl --enable-openssl \
     --with-curl \
     --with-iconv \
+    --enable-ffi \
     --enable-intl \
     --with-bz2 \
     --enable-bcmath \
