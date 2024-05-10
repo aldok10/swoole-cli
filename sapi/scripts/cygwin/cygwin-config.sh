@@ -17,7 +17,7 @@ test -f Makefile && make clean
   --enable-opcache \
   --enable-snapshot-build \
   --with-pgo \
-  --without-analyzer
+  --without-analyzer \
   --without-pcre-jit \
   --with-openssl --enable-openssl \
   --with-curl \
