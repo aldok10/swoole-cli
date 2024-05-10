@@ -13,9 +13,11 @@ cd ${__PROJECT__}
 
 ./buildconf --force
 test -f Makefile && make clean
-./configure --prefix=/usr --disable-all \
-  --disable-fiber-asm \
+./configure --disable-fiber-asm \
   --enable-opcache \
+  --enable-snapshot-build \
+  --with-pgo \
+  --without-analyzer
   --without-pcre-jit \
   --with-openssl --enable-openssl \
   --with-curl \
