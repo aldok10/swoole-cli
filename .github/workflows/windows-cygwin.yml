@@ -107,7 +107,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: swoole-cli-v${{ env.APP_VERSION }}-cygwin-x64
-          retention-days: 90
+          retention-days: 1
           path: swoole-cli-v${{ env.APP_VERSION }}-cygwin-x64.zip
 
       - name: gh release
