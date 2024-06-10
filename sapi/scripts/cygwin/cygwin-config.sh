@@ -32,6 +32,7 @@ test -f Makefile && make clean
     --enable-ctype \
     --with-zlib \
     --with-zip \
+    --with-ffi \
     --enable-posix \
     --enable-sockets \
     --enable-pdo \
